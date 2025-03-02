@@ -15,7 +15,7 @@ function Nav() {
           </Link>
 
           <div className="flex">
-            <span>Created by <a href="https://github.com/thiru-84" className="underline hover:text-violet-300" target="_blank"> Thiru</a></span>
+            <span>Created by <a href="https://github.com/thiru-84" className="underline hover:text-violet-400" target="_blank"> Thiru</a></span>
             
           </div>
         </div>
