@@ -118,14 +118,14 @@ function MoviePage() {
               </div>
               <p className="text-gray-400 text-md my-3">{movieDetails.Genre}</p>
 
-              <p className="inline-flex items-center gap-2 bg-yellow-500 rounded-full px-2.5 py-1.5 text-sm text-black w-fit my-3">
+              <p className="inline-flex items-center gap-1.5 border border-purple-500 bg-purple-900/30 rounded-full px-2.5 py-1.5 text-sm text-white w-fit my-3">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke="currentColor"
-                  className="size-5"
+                  className="size-4.5"
                 >
                   <path
                     strokeLinecap="round"
@@ -135,7 +135,7 @@ function MoviePage() {
                 </svg>
                 IMDB Rating: {movieDetails.imdbRating}
               </p>
-              <p className="pt-3">{movieDetails.Plot}</p>
+              <p className="pt-3 text-lg">{movieDetails.Plot}</p>
               <p className="text-gray-400 text-md pt-5">
                 Director: <span className="text-gray-300"> {movieDetails.Director}</span>
               </p>
