@@ -126,7 +126,7 @@ function MoviePage() {
                   strokeWidth={1.5}
                   stroke="currentColor"
                   className="size-4.5"
-                >
+                > 
                   <path
                     strokeLinecap="round"
                     strokeLinejoin="round"
