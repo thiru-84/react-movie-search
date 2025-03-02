@@ -7,9 +7,6 @@ function Home({ movies, setSearchTerm }) {
     <div
   className={`bg-zinc-900 ${movies.length <= 0 ? "h-screen" : "h-full"}`}
 >
-
-
-
       <div
         className="bg-zinc-900 flex flex-col items-center relative h-full"
         style={{
